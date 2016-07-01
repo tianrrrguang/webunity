@@ -8,7 +8,7 @@ export default class TestClass extends WebUnityComponent {
     }
 
     test1(msg){
-        console.error(msg);
+        console.warn('test: ', msg);
     }
 
     html(txt){

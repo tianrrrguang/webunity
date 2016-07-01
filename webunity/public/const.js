@@ -18,8 +18,9 @@ ret.dist_path = $path.resolve(ret.builder_path, config.dist);
 //webpack
 ret.webpack_tempjs = $path.resolve(ret.builder_path, config.webpack_tempjs);
 
-//vendor
-ret.vendor_path = $path.resolve(__dirname, '../vendor');
+//webunity
+ret.webunity_path = $path.resolve(__dirname, '../webunity');
+ret.unodeAttrName = 'unode';
 
 
 module.exports = ret;

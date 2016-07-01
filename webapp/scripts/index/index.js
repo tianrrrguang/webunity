@@ -17,7 +17,3 @@ export default class IndexClass extends WebUnityComponent {
     }
 
 };
-
-console.warn(typeof IndexClass);
-console.warn(IndexClass.name);
-console.warn(IndexClass.isWebUnityComponent());
